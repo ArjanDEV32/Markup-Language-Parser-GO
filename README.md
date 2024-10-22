@@ -63,12 +63,12 @@ languages such as DocBook.</para>
 </glossary>
 `
 	
-	var ds MULDS
-	ds.Data = mulp.Parse(&MarkUp)
-	var MarkUp2 string = mulp.Stringify(&ds.Data)
+  var ds MULDS
+  ds.Data = mulp.Parse(&MarkUp)
+  var MarkUp2 string = mulp.Stringify(&ds.Data)
 
   fmt.Println(ds.Data)
-	fmt.Println(MarkUp2)
+  fmt.Println(MarkUp2)
 }
 ```
 
